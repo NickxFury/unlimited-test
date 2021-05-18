@@ -66,7 +66,9 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                      InlineKeyboardButton("BACK", callback_data="help_data"),
+                ],
+                [
+                    InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("CLOSE", callback_data="close_data"),
                 ]                
             ]
