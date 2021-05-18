@@ -48,7 +48,8 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("CLOSE", callback_data="close_data")
+                    InlineKeyboardButton("🤔 About Me",
+                    InlineKeyboardButton("CLOSE 🔐", callback_data="close_data")
                 ]
             ]
         )
@@ -65,12 +66,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/kurachkanjiedukkatte")
-                ],
-                [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("CLOSE 🔐", callback_data="close_data"),
                 ]                
             ]
         )
