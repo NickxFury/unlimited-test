@@ -30,8 +30,8 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📜 Channel", url="https://t.me/MOVIECLUB_Links"),
-                    InlineKeyboardButton("Group ♻️", url="https://t.me/MOVIECLUB_chat")
+                   InlineKeyboardButton("📜 Channel", url="https://t.me/MOVIECLUB_Links"),
+                   InlineKeyboardButton("Group ♻️", url="https://t.me/MOVIECLUB_chat")
                 ]
             ]
         )
@@ -48,7 +48,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("CLOSE 🔐", callback_data="close_data")
+                    InlineKeyboardButton("CLOSE", callback_data="close_data")
                 ]
             ]
         )
@@ -69,7 +69,7 @@ async def cb_handler(client, query):
                         "SOURCE CODE", url="https://t.me/kurachkanjiedukkatte")
                 ],
                 [
-                    InlineKeyboardButton("CLOSE 🔐", callback_data="close_data"),
+                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
                 ]                
             ]
         )
