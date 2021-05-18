@@ -66,6 +66,10 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
+                    InlineKeyboardButton(
+                        "SOURCE CODE", url="https://t.me/kurachkanjiedukkatte")
+                ],
+                [
                     InlineKeyboardButton("CLOSE 🔐", callback_data="close_data"),
                 ]                
             ]
