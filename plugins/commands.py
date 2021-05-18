@@ -217,8 +217,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📜 Channel", url="https://t.me/MOVIECLUB_Links"),
-                    InlineKeyboardButton("Group ♻️", url="https://t.me/MOVIECLUB_chat")
+                     InlineKeyboardButton("📜 Channel", url="https://t.me/MOVIECLUB_Links"),
+                     InlineKeyboardButton("Group ♻️", url="https://t.me/MOVIECLUB_chat")
                 ]
             ]
         ),
@@ -244,8 +244,7 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤔 About Me", callback_data="about_data")
-                    InlineKeyboardButton("CLOSE 🔐", callback_data="close_data")
+                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
                 ]
             ]
         ),
@@ -265,7 +264,7 @@ async def about(client, message):
                         "SOURCE CODE", url="https://t.me/kurachkanjiedukkatte")
                 ],
                 [
-                    InlineKeyboardButton("CLOSE 🔐", callback_data="close_data"),
+                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
                 ]                
             ]
         ),
