@@ -30,7 +30,8 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("📜 Channel", url="https://t.me/MOVIECLUB_Links"),
+                    InlineKeyboardButton("Group ♻️", url="https://t.me/MOVIECLUB_chat")
                 ]
             ]
         )
@@ -47,12 +48,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Creater", url="https://t.me/NickxFury"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
-                ],
-                [
-                    InlineKeyboardButton("Channel List", url="https://t.me/MOVIECLUB_Links"),
-                    InlineKeyboardButton("Movie Group", url="https://t.me/MOVIECLUB_chat")
+                    InlineKeyboardButton("CLOSE", callback_data="close_data")
                 ]
             ]
         )
@@ -70,10 +66,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/kurachkanjiedukkatte")
-                ],
-                [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
+                      InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("CLOSE", callback_data="close_data"),
                 ]                
             ]
