@@ -48,7 +48,6 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤔 About Me", callback_data="about_data")
                     InlineKeyboardButton("CLOSE 🔐", callback_data="close_data")
                 ]
             ]
